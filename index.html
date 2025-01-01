@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Auto-École Excellence - Votre réussite, notre priorité</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Auto-École Excellence</div>
+            <ul class="nav-links">
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#presentation">Présentation</a></li>
+                <li><a href="#formations">Formations</a></li>
+                <li><a href="#tarifs">Tarifs</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="accueil" class="hero">
+            <div class="hero-content">
+                <h1>Bienvenue à l'Auto-École Excellence</h1>
+                <p>Votre réussite est notre priorité - Formation de qualité depuis plus de 15 ans</p>
+                <a href="#contact" class="cta-button">Contactez-nous</a>
+            </div>
+        </section>
+
+        <section id="presentation" class="presentation">
+            <h2>Notre Auto-École</h2>
+            <div class="features">
+                <div class="feature">
+                    <i class="fas fa-graduation-cap"></i>
+                    <h3>Moniteurs Expérimentés</h3>
+                    <p>Une équipe de professionnels qualifiés à votre service</p>
+                </div>
+                <div class="feature">
+                    <i class="fas fa-car"></i>
+                    <h3>Véhicules Récents</h3>
+                    <p>Flotte de véhicules moderne et bien entretenue</p>
+                </div>
+                <div class="feature">
+                    <i class="fas fa-award"></i>
+                    <h3>Taux de Réussite Élevé</h3>
+                    <p>Plus de 90% de réussite au permis</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="formations" class="formations">
+            <h2>Nos Formations</h2>
+            <div class="formation-cards">
+                <div class="card">
+                    <h3>Permis B</h3>
+                    <p>Formation complète au permis de conduire</p>
+                    <ul>
+                        <li>Code de la route</li>
+                        <li>Conduite accompagnée</li>
+                        <li>Conduite supervisée</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h3>Code de la Route</h3>
+                    <p>Préparation intensive à l'examen théorique</p>
+                    <ul>
+                        <li>Cours en présentiel</li>
+                        <li>Tests en ligne</li>
+                        <li>Suivi personnalisé</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="tarifs" class="tarifs">
+            <h2>Nos Tarifs</h2>
+            <div class="pricing-cards">
+                <div class="pricing-card">
+                    <h3>Formule Code</h3>
+                    <div class="price">250€</div>
+                    <ul>
+                        <li>Accès illimité aux cours</li>
+                        <li>Tests en ligne</li>
+                        <li>Validité 6 mois</li>
+                    </ul>
+                </div>
+                <div class="pricing-card featured">
+                    <h3>Formule Complète</h3>
+                    <div class="price">1200€</div>
+                    <ul>
+                        <li>Formation Code</li>
+                        <li>20h de conduite</li>
+                        <li>Accompagnement à l'examen</li>
+                    </ul>
+                </div>
+                <div class="pricing-card">
+                    <h3>Conduite Seule</h3>
+                    <div class="price">45€</div>
+                    <p>Par heure de conduite</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2>Contactez-nous</h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>Nos Coordonnées</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> 123 Rue de la Conduite, 75000 Paris</p>
+                    <p><i class="fas fa-phone"></i> 01 23 45 67 89</p>
+                    <p><i class="fas fa-envelope"></i> contact@auto-ecole-excellence.fr</p>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <input type="text" name="user_name" placeholder="Nom" required>
+                    <input type="email" name="user_email" placeholder="Email" required>
+                    <input type="tel" name="user_phone" placeholder="Téléphone" required>
+                    <textarea name="message" placeholder="Message" required></textarea>
+                    <button type="submit" class="cta-button">Envoyer</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>Horaires d'ouverture</h4>
+                <p>Lundi - Vendredi : 9h - 19h</p>
+                <p>Samedi : 9h - 17h</p>
+                <p>Dimanche : Fermé</p>
+            </div>
+            <div class="footer-section">
+                <h4>Suivez-nous</h4>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Auto-École Excellence. Tous droits réservés.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
