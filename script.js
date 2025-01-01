@@ -1,6 +1,6 @@
 // Initialisation de EmailJS
 (function() {
-    emailjs.init("tnaNvyu2s5FUzJxQd"); // Vous devrez remplacer ceci par votre clé publique EmailJS
+    emailjs.init("jeOJhrEZRJNZ1O1jH"); 
 })();
 
 // Smooth scrolling pour les liens d'ancrage
@@ -59,7 +59,7 @@ if (contactForm) {
         };
 
         // Envoi de l'email via EmailJS
-        emailjs.send('service_l0o3y9h', 'template_lro1fjq', templateParams)
+        emailjs.send('service_oggdvdj', 'template_qhknjeq', templateParams)
             .then(function() {
                 alert('Votre message a été envoyé avec succès !');
                 contactForm.reset();
